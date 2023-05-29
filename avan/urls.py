@@ -42,8 +42,6 @@ urlpatterns = [
    #   path("razorpaypayment/", views.razorpaypayment, name="razorpaypayment"),
       path('paymenthandler/', views.paymenthandler, name='paymenthandler'),
       path('askinggateway/paymenthandler/', views.paymenthandler, name='paymenthandler'),
-      path('form/',views.form , name='form'),   
-      path('form/form.html',views.form , name='form'),
       path('chatbot/', views.chatbot , name='chatbot'),
 
       

@@ -228,3 +228,14 @@ input[type="submit"] {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 } 
+#sos-button {
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px;  
+    font-size: 2em;
+    background-color: rgb(195, 61, 61);
+    color: white;
+}

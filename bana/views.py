@@ -192,4 +192,5 @@ def paymenthandler(request):
     else:
        # if other than POST request is made.
         return HttpResponseBadRequest()
-
+def form(request):
+    return render(request,'form.html')

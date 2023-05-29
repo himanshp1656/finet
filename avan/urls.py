@@ -43,6 +43,8 @@ urlpatterns = [
       path('paymenthandler/', views.paymenthandler, name='paymenthandler'),
       path('askinggateway/paymenthandler/', views.paymenthandler, name='paymenthandler'),
       path('chatbot/', views.chatbot , name='chatbot'),
+      path('form/',views.form , name='form'),   
+      path('form/form.html',views.form , name='form')   
 
       
     #   path('create-checkout-session/', views.createcheckoutsessionview,name='checkoutsessionview')

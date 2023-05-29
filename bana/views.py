@@ -9,6 +9,7 @@ from django.views import View
 import stripe
 from django.http import HttpResponseBadRequest
 import razorpay
+import openai
 stripe.api_key=settings.STRIPE_SECRET_KEY
 #from payTm import Checksum
 #from PayTm import Checksum
